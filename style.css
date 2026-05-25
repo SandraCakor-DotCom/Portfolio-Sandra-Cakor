@@ -4,11 +4,11 @@ body{
     
 }
 
-a{
+.headline_links a{
     text-decoration: none;
-    border: 6px solid black;
-    border-radius: 15px;
     padding: 10px;
+    color: black;
+   
     
 }
 
@@ -24,6 +24,7 @@ a{
 }
 
 .headline_name{
+    color:#7B61FF;
     font-size: 40px;
 
 }
@@ -36,18 +37,65 @@ a{
 }
 
 h1{
-    font-size: 70px;
+    color: #7B61FF;
+    font-size: 90px;
     margin-block-start: 0;
     margin-block-end: 0;
 }
 
 .main_title{
+    font-family: "Roboto Condensed", sans-serif;;
+    min-height: 100vh;
     color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
 
+.main_title h2{
+    font-size: 45px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
 }
 
 .main_title p{
-    font-size: 30px;
-    margin-block-start: 0;
-    margin-block-end: 0;
+    font-size:30px;
+    
 }
+
+.main_title img{
+    object-fit: cover;
+    width: 750px;
+    height: 750px;
+    border-radius: 100%;
+}
+
+.logo_section a{
+    text-decoration: none;
+}
+
+.logo_section img{
+    object-fit: cover;
+}
+
+.logo_section{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-right: 175px;
+   
+}
+
+h3{
+
+    color: #7B61FF;
+    font-size: 40px;
+}
+
+
+
+
+
