@@ -50,7 +50,7 @@ h1{
 }
 
 .main_title{
-    font-family: "Roboto Condensed", sans-serif;;
+    font-family: "Roboto Condensed", sans-serif;
     min-height: 100vh;
     color: aliceblue;
     display: flex;
@@ -96,7 +96,7 @@ h1{
 }
 
 .ueber_mich_section{
-    font-family: "Roboto Condensed", sans-serif;;
+    font-family: "Roboto Condensed", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,6 +176,41 @@ h1{
     color: #cfcfcf;
 }
 
+.second_ueber_mich{
+    font-family: "Roboto Condensed", sans-serif;
+    object-fit: cover;
+    display: flex;
+    
+}
 
+.second_ueber_mich h3{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #7B61FF;
+    font-size: 35px;
+    
+}
+
+.second_ueber_mich h4{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: aliceblue;
+    font-size: 80px
+    
+    
+}
+
+.purpel_entwicklung{
+    color: #7B61FF;
+}
+
+.second_ueber_mich p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: aliceblue;
+    font-size: 30px
+    
+    
+}
 
 
