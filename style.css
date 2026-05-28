@@ -95,43 +95,11 @@ h1{
    
 }
 
-.ueber_mich_section{
-    font-family: "Roboto Condensed", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 330px;
-    min-height: 100vh;
-}
-
-.ueber_mich_section h3{
-    margin-block-start: 0;
-    margin-block-end: 0;
-    color: #7B61FF;
-    font-size: 35px;
-    
-}
-
-.ueber_mich_section h4{
-    margin-block-start: 0;
-    margin-block-end: 0;
-    color: aliceblue;
-    font-size: 80px;
-    padding-top: 45px;
-}
-
 .purpel_mich{
     color: #7B61FF;
 }
 
-.ueber_mich_section p{
-    margin-block-start: 0;
-    margin-block-end: 0;
-    color: aliceblue;
-    font-size: 25px;
-    padding-top: 25px;
-    line-height: 55px;
-}
+
 
 .button{
     display: inline-block;
@@ -151,39 +119,19 @@ h1{
     box-shadow: 0 0 30px #7B61FF;
 }
 
-.about_cards {
-    display: grid;
-    grid-template-columns: repeat(2, 350px);
-    gap: 25px;
-}
 
-.card {
-    background-color: #111;
-    border: 1px solid rgba(123, 97, 255, 0.3);
-    border-radius: 18px;
-    padding: 30px;
-    color: white;
-}
 
-.card h5 {
-    font-size: 30px;
-    margin: 0 0 15px 0;
-}
-
-.card p {
-    font-size: 20px;
-    line-height: 1.5;
-    color: #cfcfcf;
-}
-
-.second_ueber_mich{
-    font-family: "Roboto Condensed", sans-serif;
-    object-fit: cover;
+.ueber_mich_second{
+    min-height: 100vh;
     display: flex;
-    
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+    color: aliceblue;
 }
 
-.second_ueber_mich h3{
+.ueber_mich_second h3{
     margin-block-start: 0;
     margin-block-end: 0;
     color: #7B61FF;
@@ -191,12 +139,20 @@ h1{
     
 }
 
-.second_ueber_mich h4{
+.ueber_mich_second h4{
+    
+    margin-block-start: 0;
+    margin-block-end: 0em;
+    font-size: 80px;
+    padding-top: 45px;
+}
+
+.ueber_mich_second p{
     margin-block-start: 0;
     margin-block-end: 0;
-    color: aliceblue;
-    font-size: 80px
-    
+    font-size: 25px;
+    padding-top: 25px;
+    line-height: 45px;
     
 }
 
@@ -208,9 +164,41 @@ h1{
     margin-block-start: 0;
     margin-block-end: 0;
     color: aliceblue;
-    font-size: 30px
-    
-    
+    font-size: 30px;
 }
+
+.school_logos{
+    display: grid;
+    grid-column: auto;
+    gap: 120px;
+   
+}
+
+.purpel_fähigkeiten{
+    color:#7B61FF ;
+}
+
+.faehigkeiten_section{
+    min-height: 100vh;
+    font-family: "Roboto Condensed", sans-serif;
+    color: aliceblue;
+}
+
+.faehigkeiten_section h3{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #7B61FF;
+    font-size: 35px;
+}
+
+.faehigkeiten_section h4{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 80px;
+    padding-top: 45px;
+
+}
+
+
 
 
