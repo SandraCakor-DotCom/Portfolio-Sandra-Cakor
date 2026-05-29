@@ -123,3 +123,25 @@ function reveal_beim_scrollen() {
 window.addEventListener("scroll", reveal_beim_scrollen);
 
 reveal_beim_scrollen();
+
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+
+    link.addEventListener("click", function(e) {
+
+        e.preventDefault();
+
+        const ziel = document.querySelector(
+            this.getAttribute("href")
+        );
+
+        if (ziel) {
+
+            lenis.scrollTo(ziel, {
+                duration: 1.5
+            });
+
+        }
+
+    });
+
+});
