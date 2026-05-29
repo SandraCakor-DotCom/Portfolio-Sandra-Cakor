@@ -968,4 +968,323 @@ body::after {
 }
 
 
+@media (max-width: 1200px) {
+
+    .headline {
+        width: 92%;
+        height: auto;
+        padding: 22px 30px;
+    }
+
+    .headline_name {
+        font-size: 30px;
+    }
+
+    .headline_links {
+        gap: 28px;
+        font-size: 18px;
+    }
+
+    .main_title {
+        flex-direction: column;
+        gap: 60px;
+        text-align: center;
+        padding: 180px 40px 80px;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    .main_title h2 {
+        font-size: 36px;
+    }
+
+    .main_title p {
+        font-size: 24px;
+    }
+
+    .profil_karte {
+        width: 520px;
+        height: 520px;
+    }
+
+    .ueber_mich_second {
+        flex-direction: column;
+        gap: 70px;
+        padding: 120px 40px;
+    }
+
+    .ueber_mich_textbox {
+        max-width: 900px;
+        text-align: center;
+    }
+
+    .school_logos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills_section,
+    .projekt_section,
+    .kontakt_section {
+        padding: 120px 40px;
+    }
+
+    .skills_section h2,
+    .projekt_section h3 {
+        font-size: 70px;
+    }
+
+    .kontakt_box {
+        width: 90%;
+        padding: 70px 45px;
+    }
+
+    .kontakt_box h4 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .headline {
+        top: 15px;
+        width: 92%;
+        padding: 18px 20px;
+        flex-direction: column;
+        gap: 18px;
+        border-radius: 22px;
+    }
+
+    .headline_name {
+        font-size: 28px;
+    }
+
+    .headline_links {
+        gap: 16px;
+        font-size: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main_title {
+        min-height: auto;
+        padding: 210px 22px 80px;
+        gap: 45px;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 1.05;
+    }
+
+    .main_title h2 {
+        font-size: 28px;
+        margin-top: 15px;
+    }
+
+    .main_title p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .hero_links {
+        justify-content: center;
+    }
+
+    .hero_button {
+        font-size: 18px;
+        padding: 14px 22px;
+    }
+
+    .profil_karte {
+        width: 330px;
+        height: 330px;
+    }
+
+    .profil_karte_hinten {
+        padding: 25px;
+    }
+
+    .profil_karte_hinten h3 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .profil_karte_hinten p {
+        font-size: 17px;
+        line-height: 1.4;
+        margin-bottom: 12px;
+    }
+
+    .ueber_mich_second {
+        min-height: auto;
+        padding: 90px 22px;
+    }
+
+    .ueber_mich_textbox {
+        padding: 32px 24px;
+    }
+
+    .ueber_mich_second h3 {
+        font-size: 28px;
+    }
+
+    .ueber_mich_second h4 {
+        font-size: 42px;
+        padding-top: 22px;
+    }
+
+    .ueber_mich_second p {
+        font-size: 19px;
+        line-height: 32px;
+    }
+
+    .school_logo_card {
+        width: 320px;
+        height: 160px;
+    }
+
+    .skills_section,
+    .projekt_section,
+    .kontakt_section {
+        min-height: auto;
+        padding: 90px 22px;
+    }
+
+    .skills_section h2,
+    .projekt_section h3 {
+        font-size: 48px;
+        margin-bottom: 55px;
+    }
+
+    .skills_container,
+    .projekt_container {
+        gap: 35px;
+    }
+
+    .skill_card {
+        width: 100%;
+        max-width: 330px;
+        min-height: auto;
+    }
+
+    .projekt_card {
+        width: 100%;
+        max-width: 360px;
+        min-height: auto;
+    }
+
+    .projekt_bild {
+        height: 220px;
+    }
+
+    .projekt_info {
+        padding: 25px;
+    }
+
+    .projekt_info h4 {
+        font-size: 32px;
+    }
+
+    .projekt_info p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .kontakt_box {
+        width: 100%;
+        padding: 45px 24px;
+    }
+
+    .kontakt_box h3 {
+        font-size: 30px;
+    }
+
+    .kontakt_box h4 {
+        font-size: 44px;
+    }
+
+    .kontakt_box > p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .kontakt_item {
+        min-width: unset;
+        width: 100%;
+        padding: 25px 18px;
+        box-sizing: border-box;
+    }
+
+    .kontakt_item p,
+    .kontakt_item a {
+        font-size: 20px;
+        word-break: break-word;
+    }
+
+    .footer {
+        padding: 70px 22px 40px;
+    }
+
+    .footer_content h3 {
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+
+    .footer_links {
+        gap: 22px;
+    }
+
+    .maus_schein,
+    .hintergrund_effekt {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 390px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .main_title h2 {
+        font-size: 24px;
+    }
+
+    .main_title p {
+        font-size: 18px;
+    }
+
+    .profil_karte {
+        width: 280px;
+        height: 280px;
+    }
+
+    .headline_links {
+        font-size: 14px;
+        gap: 12px;
+    }
+
+    .hero_button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .ueber_mich_second h4,
+    .kontakt_box h4 {
+        font-size: 36px;
+    }
+
+    .skills_section h2,
+    .projekt_section h3 {
+        font-size: 40px;
+    }
+}
+
+
 
